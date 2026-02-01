@@ -50,7 +50,6 @@ export interface Scalars {
 }))[],
     BSHBRichTextContentSchema: RichTextNode[],
     BSHBRichTextTOCSchema: RichTextTocNode[],
-    BSHBSelect_1837708130: 'Efficiency' | 'Guide' | 'Productivity' | 'Success',
     BSHBSelect_1867466044: 'primary' | 'secondary' | 'tertiary',
     BSHBSelect_1885808492: 'full image' | 'gradient' | 'Image bottom' | 'Image Right',
     BSHBSelect_1960434833: 'large',
@@ -187,7 +186,7 @@ export interface BlockColor {
     __typename: 'BlockColor'
 }
 
-export type BlockDocument = (AuthorComponent | Authors | AvatarComponent | Avatars | Blog | BlogPostComponent | BooleanComponent | ButtonComponent | CalloutComponent | CalloutV2Component | Categories | CategoryComponent | Changelog | ChangelogPostComponent | Characteristics | CharacteristicsItem | CodeSnippetComponent | Collections | CompaniesComponent | CompanyComponent | ComparisonOptions | Components | CustomTextComponent | CustomerSatisfactionBannerComponent | DarkLightImageComponent | FaqComponent | FaqItemComponent | FeatureComponent | FeatureHeroComponent | FeatureWithIconComponent | Features | FeaturesBigImageComponent | FeaturesBigImageList | FeaturesCardsComponent | FeaturesCardsList | FeaturesCardsListItem | FeaturesGridComponent | FeaturesGridList | FeaturesSideBySideComponent | FeaturesSideBySideList | FeaturesSideBySideListItem | Footer | FormComponent | FormWrapperComponent | FreeformTextComponent | Header | HeaderNavbarLinkComponent | HeadingComponent | HeroComponent | List | ListItem | Metadata | MetadataOverridesComponent | MoreCompanies | Navbar | NavbarItem | Navbar_1 | PageReferenceComponent | Pages | PagesItem | PlanComponent | Plans | Posts | Posts_1 | PricingComponent | PricingPlanComponent | PricingPlans | PricingTableComponent | Questions | QuoteComponent | Quotes | RichTextCalloutComponent | RightCtas | Sections | Settings | Site | SocialLinkComponent | SocialLinks | Sublinks | SublinksItem | TestimonialSliderComponent | TestimonialsGridComponent | Theme | ValueComponent | Values | _AgentStart | authorComponent_AsList | avatarComponent_AsList | blogPostComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
+export type BlockDocument = (AuthorComponent | Authors | AvatarComponent | Avatars | BooleanComponent | ButtonComponent | CalloutComponent | CalloutV2Component | Categories | CategoryComponent | Changelog | ChangelogPostComponent | Characteristics | CharacteristicsItem | CodeSnippetComponent | Collections | CompaniesComponent | CompanyComponent | ComparisonOptions | Components | CustomTextComponent | CustomerSatisfactionBannerComponent | DarkLightImageComponent | FaqComponent | FaqItemComponent | FeatureComponent | FeatureHeroComponent | FeatureWithIconComponent | Features | FeaturesBigImageComponent | FeaturesBigImageList | FeaturesCardsComponent | FeaturesCardsList | FeaturesCardsListItem | FeaturesGridComponent | FeaturesGridList | FeaturesSideBySideComponent | FeaturesSideBySideList | FeaturesSideBySideListItem | Footer | FormComponent | FormWrapperComponent | FreeformTextComponent | Header | HeaderNavbarLinkComponent | HeadingComponent | HeroComponent | List | ListItem | Metadata | MetadataOverridesComponent | MoreCompanies | Navbar | NavbarItem | Navbar_1 | PageReferenceComponent | Pages | PagesItem | PlanComponent | Plans | Posts | PricingComponent | PricingPlanComponent | PricingPlans | PricingTableComponent | Questions | QuoteComponent | Quotes | RichTextCalloutComponent | RightCtas | Sections | Settings | Site | SocialLinkComponent | SocialLinks | Sublinks | SublinksItem | TestimonialSliderComponent | TestimonialsGridComponent | Theme | ValueComponent | Values | _AgentStart | authorComponent_AsList | avatarComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
 
 export interface BlockDocumentSys {
     apiNamePath: Scalars['String']
@@ -246,7 +245,7 @@ export interface BlockImage {
     __typename: 'BlockImage'
 }
 
-export type BlockList = (Authors | Avatars | Categories | Characteristics | Features | FeaturesBigImageList | FeaturesCardsList | FeaturesGridList | FeaturesSideBySideList | List | MoreCompanies | Navbar | Navbar_1 | Pages | Plans | Posts | Posts_1 | PricingPlans | Questions | Quotes | RightCtas | SocialLinks | Sublinks | Values | authorComponent_AsList | avatarComponent_AsList | blogPostComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
+export type BlockList = (Authors | Avatars | Categories | Characteristics | Features | FeaturesBigImageList | FeaturesCardsList | FeaturesGridList | FeaturesSideBySideList | List | MoreCompanies | Navbar | Navbar_1 | Pages | Plans | Posts | PricingPlans | Questions | Quotes | RightCtas | SocialLinks | Sublinks | Values | authorComponent_AsList | avatarComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
 
 export interface BlockOgImage {
     height: Scalars['Int']
@@ -257,7 +256,7 @@ export interface BlockOgImage {
 
 
 /** Rich text block */
-export type BlockRichText = (Body | Body_1 | Body_2 | Content | Subtitle | Subtitle_1) & { __isUnion?: true }
+export type BlockRichText = (Body | Body_1 | Content | Subtitle | Subtitle_1) & { __isUnion?: true }
 
 export interface BlockVideo {
     aspectRatio: Scalars['String']
@@ -272,47 +271,6 @@ export interface BlockVideo {
     width: Scalars['Int']
     __typename: 'BlockVideo'
 }
-
-export interface Blog {
-    _analyticsKey: Scalars['String']
-    _dashboardUrl: Scalars['String']
-    _id: Scalars['String']
-    _idPath: Scalars['String']
-    _slug: Scalars['String']
-    _slugPath: Scalars['String']
-    _sys: BlockDocumentSys
-    _title: Scalars['String']
-    featuredPosts: (BlogPostComponent[] | null)
-    listTitle: Scalars['String']
-    mainTitle: Scalars['String']
-    metadata: MetadataOverridesComponent
-    posts: Posts
-    __typename: 'Blog'
-}
-
-export interface BlogPostComponent {
-    _analyticsKey: Scalars['String']
-    _dashboardUrl: Scalars['String']
-    /** Array of search highlight information with field names and HTML markup */
-    _highlight: (SearchHighlight[] | null)
-    _id: Scalars['String']
-    _idPath: Scalars['String']
-    _slug: Scalars['String']
-    _slugPath: Scalars['String']
-    _sys: BlockDocumentSys
-    _title: Scalars['String']
-    authors: AuthorComponent[]
-    body: Body_1
-    categories: Scalars['BSHBSelect_1837708130'][]
-    description: Scalars['String']
-    image: DarkLightImageComponent
-    ogImage: BlockOgImage
-    /** ISO 8601 date string. */
-    publishedAt: Scalars['String']
-    __typename: 'BlogPostComponent'
-}
-
-export type BlogPostComponentOrderByEnum = '_sys_createdAt__ASC' | '_sys_createdAt__DESC' | '_sys_hash__ASC' | '_sys_hash__DESC' | '_sys_id__ASC' | '_sys_id__DESC' | '_sys_lastModifiedAt__ASC' | '_sys_lastModifiedAt__DESC' | '_sys_slug__ASC' | '_sys_slug__DESC' | '_sys_title__ASC' | '_sys_title__DESC' | 'authors__ASC' | 'authors__DESC' | 'body__ASC' | 'body__DESC' | 'categories__ASC' | 'categories__DESC' | 'description__ASC' | 'description__DESC' | 'image__ASC' | 'image__DESC' | 'ogImage__ASC' | 'ogImage__DESC' | 'publishedAt__ASC' | 'publishedAt__DESC'
 
 export interface Body {
     html: Scalars['String']
@@ -339,26 +297,10 @@ export interface Body_1 {
 }
 
 export interface Body_1RichText {
-    blocks: UnionCodeSnippetComponentFaqItemComponentRichTextCalloutComponent[]
-    content: Scalars['BSHBRichTextContentSchema']
-    toc: Scalars['BSHBRichTextTOCSchema']
-    __typename: 'Body_1RichText'
-}
-
-export interface Body_2 {
-    html: Scalars['String']
-    json: Body_2RichText
-    markdown: Scalars['String']
-    plainText: Scalars['String']
-    readingTime: Scalars['Int']
-    __typename: 'Body_2'
-}
-
-export interface Body_2RichText {
     blocks: UnionCodeSnippetComponent[]
     content: Scalars['BSHBRichTextContentSchema']
     toc: Scalars['BSHBRichTextTOCSchema']
-    __typename: 'Body_2RichText'
+    __typename: 'Body_1RichText'
 }
 
 export interface BooleanComponent {
@@ -484,7 +426,7 @@ export interface Changelog {
     _title: Scalars['String']
     goBackText: Scalars['String']
     metadata: MetadataOverridesComponent
-    posts: Posts_1
+    posts: Posts
     socialLinks: SocialLinkComponent[]
     socialLinksTitle: Scalars['String']
     subtitle: Scalars['String']
@@ -504,7 +446,7 @@ export interface ChangelogPostComponent {
     _sys: BlockDocumentSys
     _title: Scalars['String']
     authors: AuthorComponent[]
-    body: Body_2
+    body: Body_1
     excerpt: Scalars['String']
     image: BlockImage
     ogImage: BlockOgImage
@@ -1466,29 +1408,10 @@ export interface Posts {
     _sys: BlockDocumentSys
     _title: Scalars['String']
     /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
-    item: (BlogPostComponent | null)
-    /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
-    items: BlogPostComponent[]
-    __typename: 'Posts'
-}
-
-export interface Posts_1 {
-    _analyticsKey: Scalars['String']
-    _dashboardUrl: Scalars['String']
-    _id: Scalars['String']
-    _idPath: Scalars['String']
-    _meta: ListMeta
-    /** The key used to search from the frontend. */
-    _searchKey: Scalars['String']
-    _slug: Scalars['String']
-    _slugPath: Scalars['String']
-    _sys: BlockDocumentSys
-    _title: Scalars['String']
-    /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
     item: (ChangelogPostComponent | null)
     /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
     items: ChangelogPostComponent[]
-    __typename: 'Posts_1'
+    __typename: 'Posts'
 }
 
 export interface PricingComponent {
@@ -1671,7 +1594,7 @@ export interface RichTextCalloutComponent {
 
 export type RichTextCalloutComponentOrderByEnum = '_sys_createdAt__ASC' | '_sys_createdAt__DESC' | '_sys_hash__ASC' | '_sys_hash__DESC' | '_sys_id__ASC' | '_sys_id__DESC' | '_sys_lastModifiedAt__ASC' | '_sys_lastModifiedAt__DESC' | '_sys_slug__ASC' | '_sys_slug__DESC' | '_sys_title__ASC' | '_sys_title__DESC' | 'content__ASC' | 'content__DESC' | 'size__ASC' | 'size__DESC' | 'type__ASC' | 'type__DESC'
 
-export type RichTextJson = (BaseRichTextJson | BodyRichText | Body_1RichText | Body_2RichText | ContentRichText | SubtitleRichText | Subtitle_1RichText) & { __isUnion?: true }
+export type RichTextJson = (BaseRichTextJson | BodyRichText | Body_1RichText | ContentRichText | SubtitleRichText | Subtitle_1RichText) & { __isUnion?: true }
 
 export interface RightCtas {
     _analyticsKey: Scalars['String']
@@ -1738,7 +1661,6 @@ export interface Site {
     _slugPath: Scalars['String']
     _sys: BlockDocumentSys
     _title: Scalars['String']
-    blog: Blog
     changelog: Changelog
     footer: Footer
     generalEvents: GeneralEvents
@@ -1925,8 +1847,6 @@ export type TransactionStatusEnum = 'Cancelled' | 'Completed' | 'Failed' | 'Runn
 
 export type UnionCodeSnippetComponent = (CodeSnippetComponent) & { __isUnion?: true }
 
-export type UnionCodeSnippetComponentFaqItemComponentRichTextCalloutComponent = (CodeSnippetComponent | FaqItemComponent | RichTextCalloutComponent) & { __isUnion?: true }
-
 export type UnionCustomTextComponentBooleanComponent = (BooleanComponent | CustomTextComponent) & { __isUnion?: true }
 
 export type UnionCustomTextComponentPageReferenceComponent = (CustomTextComponent | PageReferenceComponent) & { __isUnion?: true }
@@ -2081,7 +2001,6 @@ export interface _agents {
 export interface _components {
     author: authorComponent_AsList
     avatar: avatarComponent_AsList
-    blogPost: blogPostComponent_AsList
     boolean: booleanComponent_AsList
     button: buttonComponent_AsList
     callout: calloutComponent_AsList
@@ -2167,25 +2086,6 @@ export interface avatarComponent_AsList {
     /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
     items: AvatarComponent[]
     __typename: 'avatarComponent_AsList'
-}
-
-export interface blogPostComponent_AsList {
-    _analyticsKey: Scalars['String']
-    _dashboardUrl: Scalars['String']
-    _id: Scalars['String']
-    _idPath: Scalars['String']
-    _meta: ListMeta
-    /** The key used to search from the frontend. */
-    _searchKey: Scalars['String']
-    _slug: Scalars['String']
-    _slugPath: Scalars['String']
-    _sys: BlockDocumentSys
-    _title: Scalars['String']
-    /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
-    item: (BlogPostComponent | null)
-    /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
-    items: BlogPostComponent[]
-    __typename: 'blogPostComponent_AsList'
 }
 
 export interface booleanComponent_AsList {
@@ -3241,8 +3141,6 @@ export interface BlockDocumentGenqlSelection{
     on_Authors?: AuthorsGenqlSelection
     on_AvatarComponent?: AvatarComponentGenqlSelection
     on_Avatars?: AvatarsGenqlSelection
-    on_Blog?: BlogGenqlSelection
-    on_BlogPostComponent?: BlogPostComponentGenqlSelection
     on_BooleanComponent?: BooleanComponentGenqlSelection
     on_ButtonComponent?: ButtonComponentGenqlSelection
     on_CalloutComponent?: CalloutComponentGenqlSelection
@@ -3300,7 +3198,6 @@ export interface BlockDocumentGenqlSelection{
     on_PlanComponent?: PlanComponentGenqlSelection
     on_Plans?: PlansGenqlSelection
     on_Posts?: PostsGenqlSelection
-    on_Posts_1?: Posts_1GenqlSelection
     on_PricingComponent?: PricingComponentGenqlSelection
     on_PricingPlanComponent?: PricingPlanComponentGenqlSelection
     on_PricingPlans?: PricingPlansGenqlSelection
@@ -3325,7 +3222,6 @@ export interface BlockDocumentGenqlSelection{
     on__AgentStart?: _AgentStartGenqlSelection
     on_authorComponent_AsList?: authorComponent_AsListGenqlSelection
     on_avatarComponent_AsList?: avatarComponent_AsListGenqlSelection
-    on_blogPostComponent_AsList?: blogPostComponent_AsListGenqlSelection
     on_booleanComponent_AsList?: booleanComponent_AsListGenqlSelection
     on_buttonComponent_AsList?: buttonComponent_AsListGenqlSelection
     on_calloutComponent_AsList?: calloutComponent_AsListGenqlSelection
@@ -3470,7 +3366,6 @@ export interface BlockListGenqlSelection{
     on_Pages?: PagesGenqlSelection
     on_Plans?: PlansGenqlSelection
     on_Posts?: PostsGenqlSelection
-    on_Posts_1?: Posts_1GenqlSelection
     on_PricingPlans?: PricingPlansGenqlSelection
     on_Questions?: QuestionsGenqlSelection
     on_Quotes?: QuotesGenqlSelection
@@ -3480,7 +3375,6 @@ export interface BlockListGenqlSelection{
     on_Values?: ValuesGenqlSelection
     on_authorComponent_AsList?: authorComponent_AsListGenqlSelection
     on_avatarComponent_AsList?: avatarComponent_AsListGenqlSelection
-    on_blogPostComponent_AsList?: blogPostComponent_AsListGenqlSelection
     on_booleanComponent_AsList?: booleanComponent_AsListGenqlSelection
     on_buttonComponent_AsList?: buttonComponent_AsListGenqlSelection
     on_calloutComponent_AsList?: calloutComponent_AsListGenqlSelection
@@ -3555,7 +3449,6 @@ export interface BlockRichTextGenqlSelection{
     wpm?: (Scalars['Int'] | null)} } | boolean | number
     on_Body?: BodyGenqlSelection
     on_Body_1?: Body_1GenqlSelection
-    on_Body_2?: Body_2GenqlSelection
     on_Content?: ContentGenqlSelection
     on_Subtitle?: SubtitleGenqlSelection
     on_Subtitle_1?: Subtitle_1GenqlSelection
@@ -3577,81 +3470,6 @@ export interface BlockVideoGenqlSelection{
     __typename?: boolean | number
     __fragmentOn?: "BlockVideo"
 }
-
-export interface BlogGenqlSelection{
-    _analyticsKey?: { __args: {
-    /**
-     * The scope of the analytics key. Use `send` for just ingesting data. Use `query` if you need to show an analytics data in your website.
-     * 
-     * Have in mind, if you expose your `query` analytics key in the frontend, you'll be exposing all of this block's analytics data to the public. This is generally safe, but it might not be in your case.
-     */
-    scope?: (AnalyticsKeyScope | null)} } | boolean | number
-    _dashboardUrl?: boolean | number
-    _id?: boolean | number
-    _idPath?: boolean | number
-    _slug?: boolean | number
-    _slugPath?: boolean | number
-    _sys?: BlockDocumentSysGenqlSelection
-    _title?: boolean | number
-    featuredPosts?: BlogPostComponentGenqlSelection
-    listTitle?: boolean | number
-    mainTitle?: boolean | number
-    metadata?: MetadataOverridesComponentGenqlSelection
-    posts?: (PostsGenqlSelection & { __args?: {
-    /** Filter by a field. */
-    filter?: (BlogPostComponentFilterInput | null), 
-    /** Limit the number of items returned. Defaults to 500. */
-    first?: (Scalars['Int'] | null), 
-    /** Order by a field. */
-    orderBy?: (BlogPostComponentOrderByEnum | null), 
-    /** Search configuration */
-    search?: (BlogPostComponentSearchInput | null), 
-    /** Skip the first n items. */
-    skip?: (Scalars['Int'] | null)} })
-    __typename?: boolean | number
-    __fragmentOn?: "Blog"
-}
-
-export interface BlogPostComponentGenqlSelection{
-    _analyticsKey?: { __args: {
-    /**
-     * The scope of the analytics key. Use `send` for just ingesting data. Use `query` if you need to show an analytics data in your website.
-     * 
-     * Have in mind, if you expose your `query` analytics key in the frontend, you'll be exposing all of this block's analytics data to the public. This is generally safe, but it might not be in your case.
-     */
-    scope?: (AnalyticsKeyScope | null)} } | boolean | number
-    _dashboardUrl?: boolean | number
-    /** Array of search highlight information with field names and HTML markup */
-    _highlight?: SearchHighlightGenqlSelection
-    _id?: boolean | number
-    _idPath?: boolean | number
-    _slug?: boolean | number
-    _slugPath?: boolean | number
-    _sys?: BlockDocumentSysGenqlSelection
-    _title?: boolean | number
-    authors?: AuthorComponentGenqlSelection
-    body?: Body_1GenqlSelection
-    categories?: boolean | number
-    description?: boolean | number
-    image?: DarkLightImageComponentGenqlSelection
-    ogImage?: BlockOgImageGenqlSelection
-    /** ISO 8601 date string. */
-    publishedAt?: boolean | number
-    __typename?: boolean | number
-    __fragmentOn?: "BlogPostComponent"
-}
-
-export interface BlogPostComponentFilterInput {AND?: (BlogPostComponentFilterInput | null),OR?: (BlogPostComponentFilterInput | null),_id?: (StringFilter | null),_slug?: (StringFilter | null),_sys_apiNamePath?: (StringFilter | null),_sys_createdAt?: (DateFilter | null),_sys_hash?: (StringFilter | null),_sys_id?: (StringFilter | null),_sys_idPath?: (StringFilter | null),_sys_lastModifiedAt?: (DateFilter | null),_sys_slug?: (StringFilter | null),_sys_slugPath?: (StringFilter | null),_sys_title?: (StringFilter | null),_title?: (StringFilter | null),authors?: (BlogPostComponentFilterInput__authors_0___author | null),categories?: (SelectFilter | null),description?: (StringFilter | null),image?: (BlogPostComponentFilterInput__image | null),publishedAt?: (DateFilter | null)}
-
-export interface BlogPostComponentFilterInput__authors_0___author {_id?: (StringFilter | null),_slug?: (StringFilter | null),_sys_apiNamePath?: (StringFilter | null),_sys_createdAt?: (DateFilter | null),_sys_hash?: (StringFilter | null),_sys_id?: (StringFilter | null),_sys_idPath?: (StringFilter | null),_sys_lastModifiedAt?: (DateFilter | null),_sys_slug?: (StringFilter | null),_sys_slugPath?: (StringFilter | null),_sys_title?: (StringFilter | null),_title?: (StringFilter | null),role?: (StringFilter | null),x?: (StringFilter | null)}
-
-export interface BlogPostComponentFilterInput__image {_id?: (StringFilter | null),_slug?: (StringFilter | null),_sys_apiNamePath?: (StringFilter | null),_sys_createdAt?: (DateFilter | null),_sys_hash?: (StringFilter | null),_sys_id?: (StringFilter | null),_sys_idPath?: (StringFilter | null),_sys_lastModifiedAt?: (DateFilter | null),_sys_slug?: (StringFilter | null),_sys_slugPath?: (StringFilter | null),_sys_title?: (StringFilter | null),_title?: (StringFilter | null)}
-
-export interface BlogPostComponentSearchInput {
-/** Searchable fields for query */
-by?: (Scalars['String'][] | null),
-/** Search query */
-q?: (Scalars['String'] | null)}
 
 export interface BodyGenqlSelection{
     html?: { __args: {
@@ -3693,35 +3511,11 @@ export interface Body_1GenqlSelection{
 }
 
 export interface Body_1RichTextGenqlSelection{
-    blocks?: UnionCodeSnippetComponentFaqItemComponentRichTextCalloutComponentGenqlSelection
-    content?: boolean | number
-    toc?: boolean | number
-    __typename?: boolean | number
-    __fragmentOn?: "Body_1RichText"
-}
-
-export interface Body_2GenqlSelection{
-    html?: { __args: {
-    /** It automatically generates a unique id for each heading present in the HTML. Enabled by default. */
-    slugs?: (Scalars['Boolean'] | null), 
-    /** Inserts a table of contents at the beginning of the HTML. */
-    toc?: (Scalars['Boolean'] | null)} } | boolean | number
-    json?: Body_2RichTextGenqlSelection
-    markdown?: boolean | number
-    plainText?: boolean | number
-    readingTime?: { __args: {
-    /** Words per minute, defaults to average 183wpm */
-    wpm?: (Scalars['Int'] | null)} } | boolean | number
-    __typename?: boolean | number
-    __fragmentOn?: "Body_2"
-}
-
-export interface Body_2RichTextGenqlSelection{
     blocks?: UnionCodeSnippetComponentGenqlSelection
     content?: boolean | number
     toc?: boolean | number
     __typename?: boolean | number
-    __fragmentOn?: "Body_2RichText"
+    __fragmentOn?: "Body_1RichText"
 }
 
 export interface BooleanComponentGenqlSelection{
@@ -3939,7 +3733,7 @@ export interface ChangelogGenqlSelection{
     _title?: boolean | number
     goBackText?: boolean | number
     metadata?: MetadataOverridesComponentGenqlSelection
-    posts?: (Posts_1GenqlSelection & { __args?: {
+    posts?: (PostsGenqlSelection & { __args?: {
     /** Filter by a field. */
     filter?: (ChangelogPostComponentFilterInput | null), 
     /** Limit the number of items returned. Defaults to 500. */
@@ -3976,7 +3770,7 @@ export interface ChangelogPostComponentGenqlSelection{
     _sys?: BlockDocumentSysGenqlSelection
     _title?: boolean | number
     authors?: AuthorComponentGenqlSelection
-    body?: Body_2GenqlSelection
+    body?: Body_1GenqlSelection
     excerpt?: boolean | number
     image?: BlockImageGenqlSelection
     ogImage?: BlockOgImageGenqlSelection
@@ -5805,37 +5599,11 @@ export interface PostsGenqlSelection{
     _sys?: BlockDocumentSysGenqlSelection
     _title?: boolean | number
     /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
-    item?: BlogPostComponentGenqlSelection
-    /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
-    items?: BlogPostComponentGenqlSelection
-    __typename?: boolean | number
-    __fragmentOn?: "Posts"
-}
-
-export interface Posts_1GenqlSelection{
-    _analyticsKey?: { __args: {
-    /**
-     * The scope of the analytics key. Use `send` for just ingesting data. Use `query` if you need to show an analytics data in your website.
-     * 
-     * Have in mind, if you expose your `query` analytics key in the frontend, you'll be exposing all of this block's analytics data to the public. This is generally safe, but it might not be in your case.
-     */
-    scope?: (AnalyticsKeyScope | null)} } | boolean | number
-    _dashboardUrl?: boolean | number
-    _id?: boolean | number
-    _idPath?: boolean | number
-    _meta?: ListMetaGenqlSelection
-    /** The key used to search from the frontend. */
-    _searchKey?: boolean | number
-    _slug?: boolean | number
-    _slugPath?: boolean | number
-    _sys?: BlockDocumentSysGenqlSelection
-    _title?: boolean | number
-    /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
     item?: ChangelogPostComponentGenqlSelection
     /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
     items?: ChangelogPostComponentGenqlSelection
     __typename?: boolean | number
-    __fragmentOn?: "Posts_1"
+    __fragmentOn?: "Posts"
 }
 
 export interface PricingComponentGenqlSelection{
@@ -6164,7 +5932,6 @@ export interface RichTextJsonGenqlSelection{
     on_BaseRichTextJson?: BaseRichTextJsonGenqlSelection
     on_BodyRichText?: BodyRichTextGenqlSelection
     on_Body_1RichText?: Body_1RichTextGenqlSelection
-    on_Body_2RichText?: Body_2RichTextGenqlSelection
     on_ContentRichText?: ContentRichTextGenqlSelection
     on_SubtitleRichText?: SubtitleRichTextGenqlSelection
     on_Subtitle_1RichText?: Subtitle_1RichTextGenqlSelection
@@ -6267,7 +6034,6 @@ export interface SiteGenqlSelection{
     _slugPath?: boolean | number
     _sys?: BlockDocumentSysGenqlSelection
     _title?: boolean | number
-    blog?: BlogGenqlSelection
     changelog?: ChangelogGenqlSelection
     footer?: FooterGenqlSelection
     generalEvents?: GeneralEventsGenqlSelection
@@ -6579,15 +6345,6 @@ export interface UnionCodeSnippetComponentGenqlSelection{
     __fragmentOn?: "UnionCodeSnippetComponent"
 }
 
-export interface UnionCodeSnippetComponentFaqItemComponentRichTextCalloutComponentGenqlSelection{
-    on_CodeSnippetComponent?:CodeSnippetComponentGenqlSelection,
-    on_FaqItemComponent?:FaqItemComponentGenqlSelection,
-    on_RichTextCalloutComponent?:RichTextCalloutComponentGenqlSelection,
-    on_BlockDocument?: BlockDocumentGenqlSelection,
-    __typename?: boolean | number,
-    __fragmentOn?: "UnionCodeSnippetComponentFaqItemComponentRichTextCalloutComponent"
-}
-
 export interface UnionCustomTextComponentBooleanComponentGenqlSelection{
     on_BooleanComponent?:BooleanComponentGenqlSelection,
     on_CustomTextComponent?:CustomTextComponentGenqlSelection,
@@ -6830,17 +6587,6 @@ export interface _componentsGenqlSelection{
     orderBy?: (AvatarComponentOrderByEnum | null), 
     /** Search configuration */
     search?: (AvatarComponentSearchInput | null), 
-    /** Skip the first n items. */
-    skip?: (Scalars['Int'] | null)} })
-    blogPost?: (blogPostComponent_AsListGenqlSelection & { __args?: {
-    /** Filter by a field. */
-    filter?: (BlogPostComponentFilterInput | null), 
-    /** Limit the number of items returned. Defaults to 500. */
-    first?: (Scalars['Int'] | null), 
-    /** Order by a field. */
-    orderBy?: (BlogPostComponentOrderByEnum | null), 
-    /** Search configuration */
-    search?: (BlogPostComponentSearchInput | null), 
     /** Skip the first n items. */
     skip?: (Scalars['Int'] | null)} })
     boolean?: (booleanComponent_AsListGenqlSelection & { __args?: {
@@ -7403,32 +7149,6 @@ export interface avatarComponent_AsListGenqlSelection{
     items?: AvatarComponentGenqlSelection
     __typename?: boolean | number
     __fragmentOn?: "avatarComponent_AsList"
-}
-
-export interface blogPostComponent_AsListGenqlSelection{
-    _analyticsKey?: { __args: {
-    /**
-     * The scope of the analytics key. Use `send` for just ingesting data. Use `query` if you need to show an analytics data in your website.
-     * 
-     * Have in mind, if you expose your `query` analytics key in the frontend, you'll be exposing all of this block's analytics data to the public. This is generally safe, but it might not be in your case.
-     */
-    scope?: (AnalyticsKeyScope | null)} } | boolean | number
-    _dashboardUrl?: boolean | number
-    _id?: boolean | number
-    _idPath?: boolean | number
-    _meta?: ListMetaGenqlSelection
-    /** The key used to search from the frontend. */
-    _searchKey?: boolean | number
-    _slug?: boolean | number
-    _slugPath?: boolean | number
-    _sys?: BlockDocumentSysGenqlSelection
-    _title?: boolean | number
-    /** Returns the first item in the list, or null if the list is empty. Useful when you expect only one result. */
-    item?: BlogPostComponentGenqlSelection
-    /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
-    items?: BlogPostComponentGenqlSelection
-    __typename?: boolean | number
-    __fragmentOn?: "blogPostComponent_AsList"
 }
 
 export interface booleanComponent_AsListGenqlSelection{
@@ -8692,14 +8412,6 @@ export interface FragmentsMap {
     root: BlockVideo,
     selection: BlockVideoGenqlSelection,
 }
-  Blog: {
-    root: Blog,
-    selection: BlogGenqlSelection,
-}
-  BlogPostComponent: {
-    root: BlogPostComponent,
-    selection: BlogPostComponentGenqlSelection,
-}
   Body: {
     root: Body,
     selection: BodyGenqlSelection,
@@ -8715,14 +8427,6 @@ export interface FragmentsMap {
   Body_1RichText: {
     root: Body_1RichText,
     selection: Body_1RichTextGenqlSelection,
-}
-  Body_2: {
-    root: Body_2,
-    selection: Body_2GenqlSelection,
-}
-  Body_2RichText: {
-    root: Body_2RichText,
-    selection: Body_2RichTextGenqlSelection,
 }
   BooleanComponent: {
     root: BooleanComponent,
@@ -8980,10 +8684,6 @@ export interface FragmentsMap {
     root: Posts,
     selection: PostsGenqlSelection,
 }
-  Posts_1: {
-    root: Posts_1,
-    selection: Posts_1GenqlSelection,
-}
   PricingComponent: {
     root: PricingComponent,
     selection: PricingComponentGenqlSelection,
@@ -9151,10 +8851,6 @@ export interface FragmentsMap {
   avatarComponent_AsList: {
     root: avatarComponent_AsList,
     selection: avatarComponent_AsListGenqlSelection,
-}
-  blogPostComponent_AsList: {
-    root: blogPostComponent_AsList,
-    selection: blogPostComponent_AsListGenqlSelection,
 }
   booleanComponent_AsList: {
     root: booleanComponent_AsList,
