@@ -37,7 +37,7 @@ export function FeaturesGrid({
       <Heading {...heading}>
         <h4>{heading.title}</h4>
       </Heading>
-      <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-5">
+      <div className="grid w-full grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-5">
         {featuresGridList.items.map(({ _id, _title, description, icon }) => (
           <article
             key={_id}
@@ -52,11 +52,30 @@ export function FeaturesGrid({
                 width={18}
               />
             </figure>
-            <div className="flex flex-col items-start gap-1">
+            <div className="flex flex-col items-start gap-2">
               <h5 className="text-lg font-medium">{_title}</h5>
-              <p className="text-text-secondary dark:text-dark-text-secondary text-pretty">
-                {description}
-              </p>
+              
+              <div className="flex flex-col gap-2">
+                {description.split('\n').filter((line) => line.trim() !== "").map((line, i) => (
+                  <div key={i} className="flex items-start gap-2">
+                    {/* L'icône Check (coche) */}
+                    <svg 
+                      className="mt-1 size-4 shrink-0 text-text-secondary dark:text-dark-text-secondary opacity-70" 
+                      fill="none" 
+                      viewBox="0 0 24 24" 
+                      stroke="currentColor" 
+                      strokeWidth="2.5"
+                    >
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                    </svg>
+                    
+                    {/* Le texte */}
+                    <p className="text-text-secondary dark:text-dark-text-secondary text-pretty">
+                      {line}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
           </article>
         ))}
