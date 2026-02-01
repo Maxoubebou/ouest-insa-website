@@ -53,7 +53,7 @@ export function Heading({ tag, subtitle, className, align = "center", ...props }
       {subtitle ? (
         <p
           className={clsx(
-            "max-w-(--breakpoint-md) text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl",
+            "whitespace-pre-wrap max-w-(--breakpoint-md) text-pretty text-lg font-light text-text-tertiary dark:text-dark-text-tertiary md:text-xl",
             {
               "text-center": align === "center",
               "text-left": align === "left",

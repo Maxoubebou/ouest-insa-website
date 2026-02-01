@@ -50,15 +50,15 @@ export interface Scalars {
 }))[],
     BSHBRichTextContentSchema: RichTextNode[],
     BSHBRichTextTOCSchema: RichTextTocNode[],
-    BSHBSelect_111227338: 'Efficiency' | 'Guide' | 'Productivity' | 'Success',
-    BSHBSelect_1795611679: 'info' | 'warning',
-    BSHBSelect_1868728927: 'right' | 'center' | 'left' | 'none',
-    BSHBSelect_1879002554: 'full image' | 'gradient' | 'Image bottom' | 'Image Right',
-    BSHBSelect_1961083722: 'amber' | 'blue' | 'cyan' | 'emerald' | 'fuchsia' | 'gray' | 'green' | 'indigo' | 'lime' | 'neutral' | 'orange' | 'pink' | 'purple' | 'red' | 'rose' | 'sky' | 'slate' | 'stone' | 'teal' | 'violet' | 'yellow' | 'zinc',
-    BSHBSelect__1142171011: 'large',
-    BSHBSelect__1219632885: 'primary' | 'secondary' | 'tertiary',
-    BSHBSelect__2134102963: 'accordion' | 'list',
-    BSHBSelect__605999048: 'gray' | 'neutral' | 'slate' | 'stone' | 'zinc',
+    BSHBSelect_1837708130: 'Efficiency' | 'Guide' | 'Productivity' | 'Success',
+    BSHBSelect_1867466044: 'primary' | 'secondary' | 'tertiary',
+    BSHBSelect_1885808492: 'full image' | 'gradient' | 'Image bottom' | 'Image Right',
+    BSHBSelect_1960434833: 'large',
+    BSHBSelect_262811106: 'amber' | 'blue' | 'cyan' | 'emerald' | 'fuchsia' | 'gray' | 'green' | 'indigo' | 'lime' | 'neutral' | 'orange' | 'pink' | 'purple' | 'red' | 'rose' | 'sky' | 'slate' | 'stone' | 'teal' | 'violet' | 'yellow' | 'zinc',
+    BSHBSelect_604783081: 'accordion' | 'list',
+    BSHBSelect__108045351: 'info' | 'warning',
+    BSHBSelect__1086199789: 'right' | 'center' | 'left' | 'none',
+    BSHBSelect__1721217313: 'gray' | 'neutral' | 'slate' | 'stone' | 'zinc',
     Boolean: boolean,
     CodeSnippetLanguage: B_Language,
     DateTime: any,
@@ -67,12 +67,10 @@ export interface Scalars {
     Int: number,
     JSON: any,
     String: string,
-    bshb_event_1238049471: `bshb_event_1238049471:${string}`,
-    schema_bshb_event_1238049471: never,
-    bshb_event__1457496544: `bshb_event__1457496544:${string}`,
-    schema_bshb_event__1457496544: {eventType: string;},
-    bshb_event__72079289: `bshb_event__72079289:${string}`,
-    schema_bshb_event__72079289: {email: string;},
+    bshb_event_514328939: `bshb_event_514328939:${string}`,
+    schema_bshb_event_514328939: never,
+    bshb_event__272409232: `bshb_event__272409232:${string}`,
+    schema_bshb_event__272409232: {eventType: string;},
 }
 
 export type AnalyticsKeyScope = 'query' | 'send'
@@ -189,7 +187,7 @@ export interface BlockColor {
     __typename: 'BlockColor'
 }
 
-export type BlockDocument = (AuthorComponent | Authors | AvatarComponent | Avatars | Blog | BlogPostComponent | BooleanComponent | ButtonComponent | CalloutComponent | CalloutV2Component | Categories | CategoryComponent | Changelog | ChangelogPostComponent | Characteristics | CharacteristicsItem | CodeSnippetComponent | Collections | CompaniesComponent | CompanyComponent | ComparisonOptions | Components | CustomTextComponent | CustomerSatisfactionBannerComponent | DarkLightImageComponent | FaqComponent | FaqItemComponent | FeatureComponent | FeatureHeroComponent | FeatureWithIconComponent | Features | FeaturesBigImageComponent | FeaturesBigImageList | FeaturesCardsComponent | FeaturesCardsList | FeaturesCardsListItem | FeaturesGridComponent | FeaturesGridList | FeaturesSideBySideComponent | FeaturesSideBySideList | FeaturesSideBySideListItem | Footer | FormComponent | FormWrapperComponent | FreeformTextComponent | Header | HeaderNavbarLinkComponent | HeadingComponent | HeroComponent | List | ListItem | Metadata | MetadataOverridesComponent | MoreCompanies | Navbar | NavbarItem | Navbar_1 | Newsletter | PageReferenceComponent | Pages | PagesItem | PlanComponent | Plans | Posts | Posts_1 | PricingComponent | PricingPlanComponent | PricingPlans | PricingTableComponent | Questions | QuoteComponent | Quotes | RichTextCalloutComponent | RightCtas | Sections | Settings | Site | SocialLinkComponent | SocialLinks | Sublinks | SublinksItem | TestimonialSliderComponent | TestimonialsGridComponent | Theme | ValueComponent | Values | _AgentStart | authorComponent_AsList | avatarComponent_AsList | blogPostComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
+export type BlockDocument = (AuthorComponent | Authors | AvatarComponent | Avatars | Blog | BlogPostComponent | BooleanComponent | ButtonComponent | CalloutComponent | CalloutV2Component | Categories | CategoryComponent | Changelog | ChangelogPostComponent | Characteristics | CharacteristicsItem | CodeSnippetComponent | Collections | CompaniesComponent | CompanyComponent | ComparisonOptions | Components | CustomTextComponent | CustomerSatisfactionBannerComponent | DarkLightImageComponent | FaqComponent | FaqItemComponent | FeatureComponent | FeatureHeroComponent | FeatureWithIconComponent | Features | FeaturesBigImageComponent | FeaturesBigImageList | FeaturesCardsComponent | FeaturesCardsList | FeaturesCardsListItem | FeaturesGridComponent | FeaturesGridList | FeaturesSideBySideComponent | FeaturesSideBySideList | FeaturesSideBySideListItem | Footer | FormComponent | FormWrapperComponent | FreeformTextComponent | Header | HeaderNavbarLinkComponent | HeadingComponent | HeroComponent | List | ListItem | Metadata | MetadataOverridesComponent | MoreCompanies | Navbar | NavbarItem | Navbar_1 | PageReferenceComponent | Pages | PagesItem | PlanComponent | Plans | Posts | Posts_1 | PricingComponent | PricingPlanComponent | PricingPlans | PricingTableComponent | Questions | QuoteComponent | Quotes | RichTextCalloutComponent | RightCtas | Sections | Settings | Site | SocialLinkComponent | SocialLinks | Sublinks | SublinksItem | TestimonialSliderComponent | TestimonialsGridComponent | Theme | ValueComponent | Values | _AgentStart | authorComponent_AsList | avatarComponent_AsList | blogPostComponent_AsList | booleanComponent_AsList | buttonComponent_AsList | calloutComponent_AsList | calloutV2Component_AsList | categoryComponent_AsList | changelogPostComponent_AsList | characteristicsItem_AsList | codeSnippetComponent_AsList | companiesComponent_AsList | companyComponent_AsList | customTextComponent_AsList | customerSatisfactionBannerComponent_AsList | darkLightImageComponent_AsList | faqComponent_AsList | faqItemComponent_AsList | featureComponent_AsList | featureHeroComponent_AsList | featureWithIconComponent_AsList | featuresBigImageComponent_AsList | featuresCardsComponent_AsList | featuresCardsListItem_AsList | featuresGridComponent_AsList | featuresSideBySideComponent_AsList | featuresSideBySideListItem_AsList | formComponent_AsList | formWrapperComponent_AsList | freeformTextComponent_AsList | headerNavbarLinkComponent_AsList | headingComponent_AsList | heroComponent_AsList | listItem_AsList | metadataOverridesComponent_AsList | navbarItem_AsList | pageReferenceComponent_AsList | pagesItem_AsList | planComponent_AsList | pricingComponent_AsList | pricingPlanComponent_AsList | pricingTableComponent_AsList | quoteComponent_AsList | richTextCalloutComponent_AsList | socialLinkComponent_AsList | sublinksItem_AsList | testimonialSliderComponent_AsList | testimonialsGridComponent_AsList | valueComponent_AsList) & { __isUnion?: true }
 
 export interface BlockDocumentSys {
     apiNamePath: Scalars['String']
@@ -305,7 +303,7 @@ export interface BlogPostComponent {
     _title: Scalars['String']
     authors: AuthorComponent[]
     body: Body_1
-    categories: Scalars['BSHBSelect_111227338'][]
+    categories: Scalars['BSHBSelect_1837708130'][]
     description: Scalars['String']
     image: DarkLightImageComponent
     ogImage: BlockOgImage
@@ -394,7 +392,7 @@ export interface ButtonComponent {
     href: Scalars['String']
     icon: (Scalars['String'] | null)
     label: Scalars['String']
-    type: Scalars['BSHBSelect__1219632885']
+    type: Scalars['BSHBSelect_1867466044']
     __typename: 'ButtonComponent'
 }
 
@@ -726,7 +724,7 @@ export interface FaqComponent {
     _sys: BlockDocumentSys
     _title: Scalars['String']
     heading: HeadingComponent
-    layout: (Scalars['BSHBSelect__2134102963'] | null)
+    layout: (Scalars['BSHBSelect_604783081'] | null)
     questions: Questions
     __typename: 'FaqComponent'
 }
@@ -783,7 +781,7 @@ export interface FeatureHeroComponent {
     _title: Scalars['String']
     actions: (ButtonComponent[] | null)
     heading: HeadingComponent
-    heroLayout: Scalars['BSHBSelect_1879002554']
+    heroLayout: Scalars['BSHBSelect_1885808492']
     image: DarkLightImageComponent
     __typename: 'FeatureHeroComponent'
 }
@@ -1026,7 +1024,6 @@ export interface Footer {
     _title: Scalars['String']
     copyright: (Scalars['String'] | null)
     navbar: Navbar_1
-    newsletter: Newsletter
     socialLinks: SocialLinkComponent[]
     __typename: 'Footer'
 }
@@ -1089,9 +1086,9 @@ export type FreeformTextComponentOrderByEnum = '_sys_createdAt__ASC' | '_sys_cre
 
 export interface GeneralEvents {
     /** The `adminKey` gives clients the ability to query, delete and update this block's data. **It's not meant to be exposed to the public.** */
-    adminKey: Scalars['bshb_event__1457496544']
+    adminKey: Scalars['bshb_event__272409232']
     /** The `ingestKey` gives clients the ability to send new events to this block. Generally, it's safe to expose it to the public. */
-    ingestKey: Scalars['bshb_event__1457496544']
+    ingestKey: Scalars['bshb_event__272409232']
     schema: Scalars['BSHBEventSchema']
     __typename: 'GeneralEvents'
 }
@@ -1145,7 +1142,7 @@ export interface HeadingComponent {
     _slugPath: Scalars['String']
     _sys: BlockDocumentSys
     _title: Scalars['String']
-    align: (Scalars['BSHBSelect_1868728927'] | null)
+    align: (Scalars['BSHBSelect__1086199789'] | null)
     subtitle: (Scalars['String'] | null)
     tag: (Scalars['String'] | null)
     title: Scalars['String']
@@ -1363,21 +1360,6 @@ export interface Navbar_1 {
     /** Returns the list of items after filtering and paginating according to the arguments sent by the client. */
     items: NavbarItem[]
     __typename: 'Navbar_1'
-}
-
-export interface Newsletter {
-    _analyticsKey: Scalars['String']
-    _dashboardUrl: Scalars['String']
-    _id: Scalars['String']
-    _idPath: Scalars['String']
-    _slug: Scalars['String']
-    _slugPath: Scalars['String']
-    _sys: BlockDocumentSys
-    _title: Scalars['String']
-    description: (Scalars['String'] | null)
-    submissions: Submissions_1
-    title: (Scalars['String'] | null)
-    __typename: 'Newsletter'
 }
 
 export interface PageReferenceComponent {
@@ -1660,6 +1642,8 @@ export interface Quotes {
 
 export interface RepoSys {
     branches: _Branches
+    dashboardUrl: Scalars['String']
+    forkUrl: Scalars['String']
     hash: Scalars['String']
     id: Scalars['ID']
     playgroundInfo: (_PlaygroundInfo | null)
@@ -1680,8 +1664,8 @@ export interface RichTextCalloutComponent {
     _sys: BlockDocumentSys
     _title: Scalars['String']
     content: (Content | null)
-    size: (Scalars['BSHBSelect__1142171011'] | null)
-    type: Scalars['BSHBSelect_1795611679']
+    size: (Scalars['BSHBSelect_1960434833'] | null)
+    type: Scalars['BSHBSelect__108045351']
     __typename: 'RichTextCalloutComponent'
 }
 
@@ -1839,20 +1823,11 @@ export type SublinksItemOrderByEnum = '_sys_createdAt__ASC' | '_sys_createdAt__D
 
 export interface Submissions {
     /** The `adminKey` gives clients the ability to query, delete and update this block's data. **It's not meant to be exposed to the public.** */
-    adminKey: Scalars['bshb_event_1238049471']
+    adminKey: Scalars['bshb_event_514328939']
     /** The `ingestKey` gives clients the ability to send new events to this block. Generally, it's safe to expose it to the public. */
-    ingestKey: Scalars['bshb_event_1238049471']
+    ingestKey: Scalars['bshb_event_514328939']
     schema: Scalars['BSHBEventSchema']
     __typename: 'Submissions'
-}
-
-export interface Submissions_1 {
-    /** The `adminKey` gives clients the ability to query, delete and update this block's data. **It's not meant to be exposed to the public.** */
-    adminKey: Scalars['bshb_event__72079289']
-    /** The `ingestKey` gives clients the ability to send new events to this block. Generally, it's safe to expose it to the public. */
-    ingestKey: Scalars['bshb_event__72079289']
-    schema: Scalars['BSHBEventSchema']
-    __typename: 'Submissions_1'
 }
 
 export interface Subtitle {
@@ -1930,8 +1905,8 @@ export interface Theme {
     _slugPath: Scalars['String']
     _sys: BlockDocumentSys
     _title: Scalars['String']
-    accent: Scalars['BSHBSelect_1961083722']
-    grayScale: Scalars['BSHBSelect__605999048']
+    accent: Scalars['BSHBSelect_262811106']
+    grayScale: Scalars['BSHBSelect__1721217313']
     __typename: 'Theme'
 }
 
@@ -3319,7 +3294,6 @@ export interface BlockDocumentGenqlSelection{
     on_Navbar?: NavbarGenqlSelection
     on_NavbarItem?: NavbarItemGenqlSelection
     on_Navbar_1?: Navbar_1GenqlSelection
-    on_Newsletter?: NewsletterGenqlSelection
     on_PageReferenceComponent?: PageReferenceComponentGenqlSelection
     on_Pages?: PagesGenqlSelection
     on_PagesItem?: PagesItemGenqlSelection
@@ -5010,7 +4984,6 @@ export interface FooterGenqlSelection{
     search?: (NavbarItemSearchInput | null), 
     /** Skip the first n items. */
     skip?: (Scalars['Int'] | null)} })
-    newsletter?: NewsletterGenqlSelection
     socialLinks?: SocialLinkComponentGenqlSelection
     __typename?: boolean | number
     __fragmentOn?: "Footer"
@@ -5597,28 +5570,6 @@ export interface Navbar_1GenqlSelection{
     __fragmentOn?: "Navbar_1"
 }
 
-export interface NewsletterGenqlSelection{
-    _analyticsKey?: { __args: {
-    /**
-     * The scope of the analytics key. Use `send` for just ingesting data. Use `query` if you need to show an analytics data in your website.
-     * 
-     * Have in mind, if you expose your `query` analytics key in the frontend, you'll be exposing all of this block's analytics data to the public. This is generally safe, but it might not be in your case.
-     */
-    scope?: (AnalyticsKeyScope | null)} } | boolean | number
-    _dashboardUrl?: boolean | number
-    _id?: boolean | number
-    _idPath?: boolean | number
-    _slug?: boolean | number
-    _slugPath?: boolean | number
-    _sys?: BlockDocumentSysGenqlSelection
-    _title?: boolean | number
-    description?: boolean | number
-    submissions?: Submissions_1GenqlSelection
-    title?: boolean | number
-    __typename?: boolean | number
-    __fragmentOn?: "Newsletter"
-}
-
 export interface NumberFilter {eq?: (Scalars['Float'] | null),gt?: (Scalars['Float'] | null),gte?: (Scalars['Float'] | null),isNull?: (Scalars['Boolean'] | null),lt?: (Scalars['Float'] | null),lte?: (Scalars['Float'] | null),neq?: (Scalars['Float'] | null)}
 
 export interface PageReferenceComponentGenqlSelection{
@@ -6164,6 +6115,8 @@ export interface QuotesGenqlSelection{
 
 export interface RepoSysGenqlSelection{
     branches?: (_BranchesGenqlSelection & { __args?: {limit?: (Scalars['Int'] | null), offset?: (Scalars['Int'] | null)} })
+    dashboardUrl?: boolean | number
+    forkUrl?: boolean | number
     hash?: boolean | number
     id?: boolean | number
     playgroundInfo?: _PlaygroundInfoGenqlSelection
@@ -6466,16 +6419,6 @@ export interface SubmissionsGenqlSelection{
     schema?: boolean | number
     __typename?: boolean | number
     __fragmentOn?: "Submissions"
-}
-
-export interface Submissions_1GenqlSelection{
-    /** The `adminKey` gives clients the ability to query, delete and update this block's data. **It's not meant to be exposed to the public.** */
-    adminKey?: boolean | number
-    /** The `ingestKey` gives clients the ability to send new events to this block. Generally, it's safe to expose it to the public. */
-    ingestKey?: boolean | number
-    schema?: boolean | number
-    __typename?: boolean | number
-    __fragmentOn?: "Submissions_1"
 }
 
 export interface SubtitleGenqlSelection{
@@ -9013,10 +8956,6 @@ export interface FragmentsMap {
     root: Navbar_1,
     selection: Navbar_1GenqlSelection,
 }
-  Newsletter: {
-    root: Newsletter,
-    selection: NewsletterGenqlSelection,
-}
   PageReferenceComponent: {
     root: PageReferenceComponent,
     selection: PageReferenceComponentGenqlSelection,
@@ -9128,10 +9067,6 @@ export interface FragmentsMap {
   Submissions: {
     root: Submissions,
     selection: SubmissionsGenqlSelection,
-}
-  Submissions_1: {
-    root: Submissions_1,
-    selection: Submissions_1GenqlSelection,
 }
   Subtitle: {
     root: Subtitle,
