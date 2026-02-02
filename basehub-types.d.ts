@@ -53,7 +53,7 @@ export interface Scalars {
     BSHBSelect_1867466044: 'primary' | 'secondary' | 'tertiary',
     BSHBSelect_1885808492: 'full image' | 'gradient' | 'Image bottom' | 'Image Right',
     BSHBSelect_1960434833: 'large',
-    BSHBSelect_262811106: 'amber' | 'blue' | 'cyan' | 'emerald' | 'fuchsia' | 'gray' | 'green' | 'indigo' | 'lime' | 'neutral' | 'orange' | 'pink' | 'purple' | 'red' | 'rose' | 'sky' | 'slate' | 'stone' | 'teal' | 'violet' | 'yellow' | 'zinc',
+    BSHBSelect_262811106: 'purple' | 'amber' | 'blue' | 'cyan' | 'emerald' | 'fuchsia' | 'gray' | 'green' | 'indigo' | 'lime' | 'neutral' | 'orange' | 'pink' | 'red' | 'rose' | 'sky' | 'slate' | 'stone' | 'teal' | 'violet' | 'yellow' | 'zinc',
     BSHBSelect_604783081: 'accordion' | 'list',
     BSHBSelect__108045351: 'info' | 'warning',
     BSHBSelect__1086199789: 'right' | 'center' | 'left' | 'none',
