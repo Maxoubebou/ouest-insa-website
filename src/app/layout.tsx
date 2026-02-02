@@ -9,6 +9,8 @@ import { Header } from "./_components/header";
 import { Footer } from "./_components/footer";
 import { draftMode } from "next/headers";
 
+import { RibbonBackground } from "@/common/ribbon-background";
+
 const geist = Geist({
   subsets: ["latin"],
   display: "swap",
@@ -107,12 +109,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html suppressHydrationWarning lang="en">
       <body
-        className={`min-h-svh max-w-[100vw] bg-surface-primary text-text-primary dark:bg-dark-surface-primary dark:text-dark-text-primary ${geistMono.variable} ${geist.variable} font-sans`}
+        className={`relative min-h-svh max-w-[100vw] overflow-x-hidden bg-surface-primary text-text-primary dark:bg-dark-surface-primary dark:text-dark-text-primary ${geistMono.variable} ${geist.variable} font-sans`}
       >
         <Providers>
-          <Header />
-          <main className="min-h-[calc(100svh-var(--header-height))]">{children}</main>
-          <Footer />
+          <RibbonBackground />
+          
+          <div className="relative flex flex-col min-h-svh z-10">
+            <Header />
+            <main className="flex-1">
+              {children}
+            </main>
+            <Footer />
+          </div>
         </Providers>
       </body>
     </html>

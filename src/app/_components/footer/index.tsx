@@ -116,36 +116,11 @@ export async function Footer() {
                     </li>
                   );
                 })}
-
-                {settings.showUseTemplate ? (
-                  <li>
-                    <PoweredByBasehub className="ml-auto shrink-0" />
-                  </li>
-                ) : null}
               </ul>
             </div>
           </footer>
         );
       }}
     </Pump>
-  );
-}
-
-function PoweredByBasehub({ className }: { className?: string }) {
-  return (
-    <ButtonLink
-      unstyled
-      className={className}
-      href="https://basehub.com/basehub/marketing-website"
-      target="_blank"
-    >
-      <Image
-        alt="Use BaseHub Template"
-        className="h-7 w-auto"
-        height={28}
-        src="https://basehub.com/template-button.svg"
-        width={150}
-      />
-    </ButtonLink>
   );
 }
