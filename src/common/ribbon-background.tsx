@@ -24,7 +24,7 @@ export const RibbonBackground = () => {
           </linearGradient>
 
           <filter id="heavyBlur" >
-            <feGaussianBlur in="SourceGraphic" stdDeviation="80" result="blur" />
+            <feGaussianBlur in="SourceGraphic" stdDeviation="120" result="blur" />
           </filter>
         </defs>
 
@@ -34,7 +34,7 @@ export const RibbonBackground = () => {
             d="M-100,0 C300,200 100,500 1200,100"
             fill="none"
             stroke="url(#blueGradient)"
-            strokeWidth="100"
+            strokeWidth="20"
             strokeLinecap="round"
             className="mix-blend-screen"
           />
@@ -44,7 +44,7 @@ export const RibbonBackground = () => {
             d="M-200,400 C400,200 600,900 1200,300"
             fill="none"
             stroke="url(#redGradient)"
-            strokeWidth="100"
+            strokeWidth="20"
             strokeLinecap="round"
             className="mix-blend-screen"
           />
@@ -54,7 +54,7 @@ export const RibbonBackground = () => {
             d="M-100,600 C400,400 500,1000 1200,500"
             fill="none"
             stroke="url(#blueGradient)"
-            strokeWidth="100"
+            strokeWidth="20"
             strokeLinecap="round"
             className="mix-blend-screen"
           />
@@ -64,7 +64,7 @@ export const RibbonBackground = () => {
             d="M-100,900 C300,700 600,1100 1200,800"
             fill="none"
             stroke="url(#redGradient)"
-            strokeWidth="100"
+            strokeWidth="20"
             strokeLinecap="round"
             className="mix-blend-screen"
           />
@@ -74,7 +74,7 @@ export const RibbonBackground = () => {
             d="M200,-100 C-100,300 1000,600 800,1200"
             fill="none"
             stroke="url(#blueGradient)"
-            strokeWidth="100"
+            strokeWidth="20"
             strokeLinecap="round"
             className="mix-blend-screen"
           />

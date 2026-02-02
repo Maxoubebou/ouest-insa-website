@@ -67,8 +67,7 @@ export async function Footer() {
         "use server";
 
         return (
-          <footer className="border-t border-border py-8 dark:border-dark-border">
-            <div className="container mx-auto grid grid-cols-2 grid-rows-[auto_auto_auto] place-items-start items-center gap-y-4 px-6 sm:grid-cols-[1fr_auto_1fr] sm:grid-rows-2 sm:gap-x-3 sm:gap-y-6">
+          <footer className="relative z-50 border-t border-border bg-surface-primary py-8 dark:border-dark-border dark:bg-dark-surface-primary">            <div className="container mx-auto grid grid-cols-2 grid-rows-[auto_auto_auto] place-items-start items-center gap-y-4 px-6 sm:grid-cols-[1fr_auto_1fr] sm:grid-rows-2 sm:gap-x-3 sm:gap-y-6">
               <Link aria-label="Homepage" href="/">
                 <DarkLightImageAutoscale priority {...settings.logo} />
               </Link>
