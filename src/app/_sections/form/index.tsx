@@ -110,7 +110,7 @@ export function Form(props: Form) {
                     </table>
                     
                     <div style="margin-top: 30px; text-align: center;">
-                       <a href="mailto:${'votreMail' in parsedData.data ? parsedData.data.votreMail : ''}" style="display: inline-block; background-color: #3CACB6; color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: 500; font-size: 16px;">
+                       <a href="mailto:${(parsedData.data as Record<string, unknown>)['votreMail'] || ''}" style="display: inline-block; background-color: #3CACB6; color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: 500; font-size: 16px;">
                         Répondre au prospect
                     </a>
                     </div>
