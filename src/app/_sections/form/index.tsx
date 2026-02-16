@@ -128,7 +128,7 @@ export function Form(props: Form) {
             await resend.emails.send({
               from: "Devis <onboarding@resend.dev>",
               to: ["demande-devis-website@ouest-insa.fr"],
-              subject: `Devis : ${parsedData.data.sociT || "Nouveau prospect"} (${parsedData.data.nom})`,
+              subject: `Devis : ${(parsedData.data as Record<string, unknown>)['sociT'] || "Nouveau prospect"} (${(parsedData.data as Record<string, unknown>)['nom']})`,
               html: htmlTemplate,
             });
           }}
