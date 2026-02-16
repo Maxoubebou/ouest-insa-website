@@ -40,16 +40,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }) satisfies MetadataRoute.Sitemap[number],
   );
 
-  const formattedBlogPosts = data.site.blog.posts.items.map(
-    (post) =>
-      ({
-        url: `${siteUrl}/blog/${post._slug}`,
-        lastModified: new Date(),
-        changeFrequency: "daily",
-        priority: index++,
-      }) satisfies MetadataRoute.Sitemap[number],
-  );
-
   const formattedChangelogPosts = data.site.changelog.posts.items.map(
     (post) =>
       ({
@@ -60,6 +50,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       }) satisfies MetadataRoute.Sitemap[number],
   );
 
-  const routes = [...formattedPages, ...formattedBlogPosts, ...formattedChangelogPosts];
+  const routes = [...formattedPages, ...formattedChangelogPosts];
   return routes;
 }
