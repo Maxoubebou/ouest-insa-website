@@ -18,12 +18,10 @@ export function FormLayout({
   children,
   title,
   subtitle,
-  icon,
 }: {
   title: string;
   subtitle: React.ReactNode;
   children: React.ReactNode;
-  icon?: { url: string; width: number; height: number; alt?: string | null } | null;
 }) {
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-5 rounded-xl border border-surface-secondary bg-surface-primary p-5 shadow-md dark:border-dark-border dark:bg-dark-surface-secondary dark:shadow-none">
