@@ -28,17 +28,6 @@ export function FormLayout({
   return (
     <div className="mx-auto flex w-full max-w-xl flex-col gap-5 rounded-xl border border-surface-secondary bg-surface-primary p-5 shadow-md dark:border-dark-border dark:bg-dark-surface-secondary dark:shadow-none">
       <header className="flex flex-col gap-3">
-        {icon && (
-          <Image
-            priority
-            alt={icon.alt || "Icon"}
-            // CORRECTION ICI : Hauteur fixe, largeur auto, conserve le ratio
-            className="h-12 w-auto self-start object-contain"
-            height={icon.height}
-            src={icon.url}
-            width={icon.width}
-          />
-        )}
         <div className="flex flex-col gap-1">
           <h1 className="text-xl font-medium">{title}</h1>
           <div className="text-sm text-text-secondary dark:text-dark-text-secondary">
